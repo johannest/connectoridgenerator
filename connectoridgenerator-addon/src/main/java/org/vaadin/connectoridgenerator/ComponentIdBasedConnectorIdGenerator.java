@@ -69,5 +69,4 @@ public class ComponentIdBasedConnectorIdGenerator
         } while (usedConnectorIds.contains(modifiedId));
         return modifiedId;
     }
-
 }
