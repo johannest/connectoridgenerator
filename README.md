@@ -6,6 +6,14 @@ Plugs into connector id generation by using components' (css) ids for connector 
 
 See connectoridgenerator-demo project for usage example. Shortly
  
+###A) In case you use Spring in your project
+
+ 1. Copy connectoridgenerator-demo project's ApplicationInitLister to your project
+ 2. Annotate it with Spring's @Component annotation
+ 3. Optionally add configuration to turn connectoridgenerator on and off for example in case of load test mode
+ 
+###B) In case you do not have Spring in your project
+
  1. Add META-INF/services folders into you application's src/main/resources
  2. Add file named com.vaadin.server.VaadinServiceInitListener into the new folder
  3. Add full class name of your ApplicationInitListener in the file (e.g. org.vaadin.connectoridgenerator.ApplicationInitListener)
