@@ -1,0 +1,1 @@
+## ConnectorIdGenerator Add-on for Vaadin
