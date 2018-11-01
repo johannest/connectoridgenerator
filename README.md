@@ -1,3 +1,6 @@
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/connectoridgenerator)
+[![Stars on Vaadin Directory](https://img.shields.io/vaadin-directory/star/connectoridgenerator.svg)](https://vaadin.com/directory/component/connectoridgenerator)
+
 ## Plug-in Component Id Based Connector Id Generator for Vaadin 8.1+
 
 Plugs into connector id generation by using components' (css) ids for connector (communication) ids. This will help one to write scalability tests for Vaadin with e.g JMeter or Gatling.
